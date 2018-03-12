@@ -2,3 +2,8 @@ It's NodeJS, Install it, do things with it, this code is just really slap dashed
 
 if you want to do other things, try IFTTT and the blink.sh script that is called. you can use curl for that.
 
+You will need to extract your Discord Token out of your local Storage on your brower and add it into horn.js
+
+Copy the channel-id of #pings (right-click on the channel) 
+
+past that, google is your best friend, if someone wants to update this pull requests are welcome!
