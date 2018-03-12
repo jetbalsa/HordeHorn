@@ -44,8 +44,8 @@ User settings > Appearance > Developer Mode
 In the directory you downloaded the project, run this in the commandline:
 `npm install`
 
-Alternatively, run the following line to install all dependencies necessary globally:
-`npm install -g nodemon`
+Alternatively, run the following line to install all dependencies necessary:
+`npm install nodemon`
 
 Run application:
 `node horn.js`
