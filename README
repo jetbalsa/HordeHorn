@@ -39,11 +39,13 @@ User settings > Appearance > Developer Mode
 ##### Get channel id(Must be in discord dev mode):
 - Right click channel name > Copy ID
 - paste ID to `var channelid='xxxx'`
-- Get channel id 
 
 ##### Install project:
 In the directory you downloaded the project, run this in the commandline:
 `npm install`
+
+Alternatively, run the following line to install all dependencies necessary globally:
+`npm install -g nodemon`
 
 Run application:
 `node horn.js`
