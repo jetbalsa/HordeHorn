@@ -1,0 +1,28 @@
+{
+  "name": "hordehorn",
+  "version": "1.0.0",
+  "description": "First Commit",
+  "main": "horn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JRWR/HordeHorn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JRWR/HordeHorn/issues"
+  },
+  "homepage": "https://github.com/JRWR/HordeHorn#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "download-file": "^0.1.5",
+    "google-tts-api": "0.0.2",
+    "play-sound": "^1.1.2",
+    "request": "^2.85.0",
+    "sleep": "^5.1.1",
+    "striptags": "^3.1.1"
+  }
+}
