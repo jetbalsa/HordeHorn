@@ -50,7 +50,7 @@ Alternatively, run the following line to install all dependencies necessary:
 Run application:
 `node horn.js`
 
-If you recieve an error regarding `Error: spawn mpg123 ENOENT`, make sure to install mph123:
+If you recieve an error regarding `Error: spawn mpg123 ENOENT`, make sure to install mpg123:
 
 Install mpg:
 https://www.npmjs.com/package/mpg123
