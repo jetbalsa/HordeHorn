@@ -7,9 +7,16 @@ var client = new Discord.Client();
 var util = require("util");
 var sleep = require('sleep');
 
-client.login('XXXXXXXXXXXXXXXXXXXXX'); // EDIT THIS TO YOUR TOKEN FROM DISCORD
+var config  = require('./config.js');
+var discordToken = config.discordToken;
+var channelId = config.channelId;
+var messageLength = config.messageLength;
 
-var channelid = 'XXXXXXXXXXXXXXXXXXXX' // COPY CHANNEL ID YOU WANT TO ALERT ON
+console.log(discordToken);
+console.log(channelId);
+console.log(messageLength);
+
+client.login(discordToken);
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -21,9 +28,9 @@ client.on('message', msg => {
   }
 });
 client.on('message', message => {
-  if((message.channel.id == channelid) && (message.content.indexOf("@everyone") > -1)){
+  if((message.channel.id == channelId) && (message.content.indexOf("@everyone") > -1)){
   	console.log(striptags(message.content));
-        if(message.content.length > 199) message.content = message.content.substring(0,199);
+        if(message.content.length > messageLength) message.content = message.content.substring(0,messageLength);
 	googleTTS(striptags(message.content), 'en', 1)
 	.then(function (url) {
 	var options = {
