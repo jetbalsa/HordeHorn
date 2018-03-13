@@ -39,18 +39,16 @@ User settings > Appearance > Developer Mode
 ##### Get channel id(Must be in discord dev mode):
 - Right click channel name > Copy ID
 - paste ID to `var channelid='xxxx'`
+- Get channel id 
 
 ##### Install project:
 In the directory you downloaded the project, run this in the commandline:
 `npm install`
 
-Alternatively, run the following line to install all dependencies necessary:
-`npm install nodemon`
-
 Run application:
 `node horn.js`
 
-If you recieve an error regarding `Error: spawn mpg123 ENOENT`, make sure to install mpg123:
+If you recieve an error regarding `Error: spawn mpg123 ENOENT`, make sure to install mph123:
 
 Install mpg:
 https://www.npmjs.com/package/mpg123
